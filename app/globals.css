@@ -75,6 +75,13 @@ body {
   color: var(--ink);
 }
 
+@media (orientation: portrait) {
+  .drop-cap::first-letter {
+    font-size: 5.5rem;
+    padding: 0.5rem 0.7rem 0 0;
+  }
+}
+
 /* Newsprint column rule */
 .column-rule {
   column-rule: 1px solid rgba(0, 0, 0, 0.18);
